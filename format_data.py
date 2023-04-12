@@ -77,6 +77,8 @@ if __name__ == "__main__":
 
         if args.add_chatgpt_dialogue and filter is not None:
             for character in filter:
+                if character.lower() not in chatgpt_prompts.keys():
+                    continue
                 for p, s in zip(chatgpt_prompts[character.lower()], chatgpt_sentences[character.lower()]):
                     prompt = p
                     completion = s

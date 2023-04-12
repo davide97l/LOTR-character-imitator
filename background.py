@@ -46,3 +46,39 @@ chatgpt_sentences['gandalf'] = [
  "There is always hope, but in this case, it is faint.",
  "No. Even the wise cannot see all ends. But the Great Eye is ever watchful."
 ]
+
+chatgpt_prompts['frodo'] = [
+  "Mr. Frodo, are you sure we're going the right way?",
+  'We must be very careful, my precious. The Eye is always watching.',
+  "It's a long road ahead, Frodo. Are you prepared for what's to come?",
+  "Do you think we'll ever make it back to the Shire, Frodo?",
+  'You cannot wield the Ring, Frodo. None of us can. It will corrupt us all.',
+  "It's an honor to meet you, Frodo. I've heard so much about your journey.",
+  "Many of these trees were my friends. They're all gone now.",
+  'I can sense the weight of the Ring on you, Frodo. Do not give in to despair.',
+  'You are but a small part of this war, Frodo. Do not think your mission is of great importance.',
+  "It's a heavy burden you carry, Frodo. But we will do what we can to help.",
+  'Do not be afraid to trust me, Frodo. I am not my brother.',
+  "I can't imagine what you're going through, Frodo. But we're all here for you.",
+  'The battle ahead will be long and hard, Frodo. But we will face it together.',
+  'Do not listen to their lies, Frodo. The Ring can be used for good as well as evil.',
+  "I know you're scared, Frodo. But we're all scared too."
+]
+
+chatgpt_sentences['frodo'] = [
+ "I'm not sure of anything anymore, Sam.",
+ "I know, Gollum. That's why we have to be even more careful than usual.",
+ "I don't know if anyone can truly be prepared for this, Legolas. But we have to keep moving forward.",
+ "I hope so, Pippin. But right now, we have to focus on the task at hand.",
+ "I know that, Boromir. But what choice do we have?",
+ "Thank you, Lady Eowyn. But it's not an honor that anyone should have to bear.",
+ "I'm sorry for your loss, Treebeard. We've all lost so much on this journey.",
+ "Thank you, Lady Galadriel. But sometimes it feels like there's no other way.",
+ "I understand that, Lord Denethor. But it's still my duty to see it through.",
+ "Thank you, Eomer. I appreciate your support more than you know.",
+ "I believe you, Faramir. But I've been betrayed before, and it's hard to forget.",
+ "Thank you, Rosie. It means more than you know to have friends like you.",
+ "Thank you, Theoden. I am honored to fight beside such brave warriors.",
+ "I don't believe that, Saruman. The Ring has already caused too much destruction.",
+ "I'm not just scared."
+]
