@@ -62,7 +62,8 @@ openai api fine_tunes.follow -i <YOUR_FINE_TUNE_JOB_ID>
 
 Open [OpenAI Playground](https://platform.openai.com/playground/) and select your fine-tuned model to start chatting.
 
-For best results make sure `Stop sequences` is `###` and `Inject start text` set as `↵↵###↵↵`.
+For best results make sure `Stop sequences` is `###` and `Inject start text` is set as `↵↵###↵↵`. 
+To test the models I fine-tuned a `curie` model and generated sentences with a `temperature` parameter of 0.7.
 
 ## Chat examples
 
