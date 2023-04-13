@@ -152,3 +152,47 @@ To test the models I fine-tuned a `curie` model and generated sentences with a `
 >**USER**: Then I will take it from you
 >
 >**GANDALF**: You wouldn't harm an old man, would you?
+
+# Evaluation
+
+To evaluate character responses, it has been used ChatGPT with the following prompt.
+Replace `{user_prompt_N}` with your prompt and `{name_response_N}` with the corresponding reply for the parts of dialogue you want to evaluate.
+
+> Given a conversation between {name} from the Lord of the Rings and a random user, I want you to score the quality of the responses of {name} from 1 to 10 according to the degree of how much they resemble the talking style, tone, background, and personality of {name}. Also, consider the coherence and correctness of the responses with respect to the prompt. Responses should also reflect the environment and facts that happened in the character's world. Give and show the score for each response and output the average score.
+>
+> User: {user_prompt_1}
+> 
+> Character: {name_response_1}
+> 
+> User: {user_prompt_2}
+> ...
+
+<details>
+<summary>Evaluation of Gandalf</summary>
+
+- "How many orcs have you killed?" - Score: 8/10. Gandalf's response of "I do not know. Hundreds? Thousands? I've lost count" is a reflection of his long history of fighting against the armies of darkness. The tone of his response is serious and contemplative, which fits with his role as a powerful wizard who has seen many battles.
+- "Who is Frodo?" - Score: 9/10. Gandalf's response of "He is the ring bearer. We should never have left him" accurately reflects the urgency and gravity of the situation facing Middle-earth. His tone is concerned and regretful, which reflects his deep care for Frodo and the fate of the world.
+- "Where can the ring of be destroyed?" - Score: 9/10. Gandalf's answer of "In the fire of Mount Doom" is a concise and accurate reflection of the central quest of the Lord of the Rings. His tone is serious and focused, which reflects the seriousness of the task at hand.
+- "Where does your power come from?" - Score: 9/10. Gandalf's response of "My power is derived from the will of the Valar" is consistent with his character's background as a Maiar and reflects his understanding of the complex mythology of Middle-earth. His tone is matter-of-fact, which reflects his confidence and authority.
+- "What are the Valar?" - Score: 8/10. Gandalf's response of "The Valar are the rulers of all things in the world" accurately reflects the hierarchy of beings in Tolkien's mythology. His tone is informative and patient, which reflects his role as a guide and mentor.
+- "What do you think about Gollum? Does he have any hope?" - Score: 7/10. Gandalf's response of "No. He is beyond hope" accurately reflects his understanding of the nature of Gollum and his role in the quest. However, his tone is somewhat dismissive and lacks the empathy and complexity that Gandalf exhibits in other parts of the story.
+
+Overall, the average score for Gandalf's responses is: 8.17.
+
+</details>
+
+<details>
+<summary>Evaluation of Frodo</summary>
+
+- "Who is Gollum?" - Frodo's response of "Release him!" is not a direct answer to the question, but it is consistent with his character's compassion and empathy for even the most unlikely creatures. However, the response doesn't reflect the context of Gollum's identity or backstory. I would give this response a score of 6 out of 10.
+- "Do you trust Gollum?" - Frodo's response of "Yes. Then release him." is consistent with his tendency to see the good in people and his desire to give everyone a chance. However, it doesn't reflect the reality of Gollum's past actions, which Frodo is aware of. I would give this response a score of 7 out of 10.
+- "Gollum will betray you" - Frodo's response of "I know. But it's all I have left to trust." is consistent with his conflicted nature, as he struggles with the task of carrying the Ring and the weight of responsibility that comes with it. He is aware of the risks but is willing to take them for the greater good. The response is also accurate with respect to Gollum's true nature. I would give this response a score of 9 out of 10.
+- "Do you have the ring?" - Frodo's response of "I have the Ring Sam." is accurate and concise, reflecting his seriousness about the task he has been entrusted with. The response also shows his willingness to confide in Sam. I would give this response a score of 8 out of 10.
+- "Give the ring to me!" - Frodo's response of "No!" is consistent with his understanding of the danger that the Ring poses and his determination to complete his mission. It's also consistent with his reluctance to burden others with the task, even those he trusts. The response also shows his awareness of the responsibility that comes with holding the Ring. I would give this response a score of 9 out of 10.
+- "Then I will take it from you" - Frodo's response of "Give me the Ring Sam!" is consistent with his urgency and the gravity of the situation. It's also a reflection of his desire to protect Sam from the burden of carrying the Ring. The response is not directly answering the user's statement but is consistent with Frodo's character. I would give this response a score of 7 out of 10.
+- "Frodo, you are tired, I can help you to share the weight" - Frodo's response of "No!" is consistent with his reluctance to burden others with the task and his awareness of the danger that the Ring poses. The response also shows his determination to complete the mission on his own. I would give this response a score of 8 out of 10.
+- "Where are you going?" - Frodo's response of "I must leave the Shire." is accurate and reflects his understanding of the task at hand. The response also shows his awareness of the danger that the Ring poses and his urgency to leave as soon as possible. I would give this response a score of 9 out of 10.
+
+Overall, the average score for Frodo's responses is: 7.88.
+
+</details>
