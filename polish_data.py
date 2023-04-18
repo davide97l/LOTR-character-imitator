@@ -4,13 +4,21 @@ import json
 import re
 from tqdm import tqdm
 import time
+import argparse
 
-openai.api_key = os.environ["OPENAI_API_KEY"]
-file_name = 'data/lotr_scripts_frodo.jsonl'
+# example usage: python polish_data.py --top_n 50 --llm text-davinci-001 --file_name data/lotr_scripts_frodo.jsonl
+parser = argparse.ArgumentParser()
+parser.add_argument('--file_name', type=str, default='data/lotr_scripts_frodo.jsonl')
+parser.add_argument('--top_n', type=int, default=50, help='Keep top N dialogues')
+parser.add_argument('--llm', type=str, default='text-davinci-001', help='LLM to use for evaluating dialogues quality')
+args = parser.parse_args()
+
+file_name = args.file_name
 new_file_name = file_name.split('.jsonl')[0] + '_polish.jsonl'
 score_file_name = file_name.split('.jsonl')[0] + '_score.jsonl'
-top_n = 50  # keep top N dialogues
-llm = 'text-davinci-001'  # LLM to use for scoring
+top_n = args.top_n
+llm = args.llm
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 
 with open(file_name, 'r') as f:
