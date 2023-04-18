@@ -31,12 +31,17 @@ You can use the following command to visualize a list of all supported character
 python format_data.py --show_chars True
 ```
 
-**BONUS**: use ChatGPT generated data to augment the dataset. 
+**BONUS 1**: use ChatGPT generated data to augment the dataset. 
 - Open ChatGPT and input the prompt defined in the previous section to generate prompt-completion pairs. Replace `{name}` with the name of your character.
 - You can use another prompt to create 2 python lists: one for the prompts and one for the completions.
     > Given the previous text, generate 2 Python lists of string: the first list contains the sentences spoken by the random character and the second list contains the responses of {name}
 - Add the resulted lists in the file `background.py` respecting the predefined format.
 - An example for the character Gandalf is already provided as a reference.
+
+**BONUS 2**: use a language model to filter and retain only high-quality conversations.
+```
+python polish_data.py --top_n 50 --llm text-davinci-001 --file_name data/lotr_scripts_{name}.jsonl
+```
 
 ## Fine-tuning
 Add your OpanAI key.

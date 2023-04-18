@@ -10,7 +10,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--file_name', type=str, default='data/lotr_scripts_frodo.jsonl')
 parser.add_argument('--top_n', type=int, default=50, help='Keep top N dialogues')
-parser.add_argument('--llm', type=str, default='text-davinci-001', help='LLM to use for evaluating dialogues quality')
+parser.add_argument('--llm', type=str, default='text-davinci-003', help='LLM to use for evaluating dialogues quality')
 args = parser.parse_args()
 
 file_name = args.file_name
