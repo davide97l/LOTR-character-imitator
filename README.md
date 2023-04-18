@@ -165,10 +165,12 @@ Replace `{user_prompt_N}` with your prompt and `{name_response_N}` with the corr
 > Character: {name_response_1}
 > 
 > User: {user_prompt_2}
+> 
 > ...
 
 <details>
 <summary>Evaluation of Gandalf</summary>
+
 
 - "How many orcs have you killed?" - Score: 8/10. Gandalf's response of "I do not know. Hundreds? Thousands? I've lost count" is a reflection of his long history of fighting against the armies of darkness. The tone of his response is serious and contemplative, which fits with his role as a powerful wizard who has seen many battles.
 - "Who is Frodo?" - Score: 9/10. Gandalf's response of "He is the ring bearer. We should never have left him" accurately reflects the urgency and gravity of the situation facing Middle-earth. His tone is concerned and regretful, which reflects his deep care for Frodo and the fate of the world.
@@ -183,6 +185,7 @@ Overall, the average score for Gandalf's responses is: 8.17.
 
 <details>
 <summary>Evaluation of Frodo</summary>
+
 
 - "Who is Gollum?" - Frodo's response of "Release him!" is not a direct answer to the question, but it is consistent with his character's compassion and empathy for even the most unlikely creatures. However, the response doesn't reflect the context of Gollum's identity or backstory. I would give this response a score of 6 out of 10.
 - "Do you trust Gollum?" - Frodo's response of "Yes. Then release him." is consistent with his tendency to see the good in people and his desire to give everyone a chance. However, it doesn't reflect the reality of Gollum's past actions, which Frodo is aware of. I would give this response a score of 7 out of 10.
