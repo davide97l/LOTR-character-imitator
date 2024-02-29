@@ -6,6 +6,8 @@ With this project, you can! We have fine-tuned an OpenAI language model to imita
 
 Our model has been trained on a vast amount of text data, including the original books and scripts from the movies, to capture the unique voices of characters such as Gandalf, Frodo, and Aragorn. Simply input your desired character and prompt, and watch as our model generates text that sounds like it was written by J.R.R. Tolkien himself! 🤩🎬📜
 
+![Default_the_lord_of_the_rings_poster_1](https://github.com/davide97l/LOTR-character-imitator/assets/41103541/5df4b95e-5c57-41fa-a49b-69e8174010ec)
+
 ## Dataset
 
 ### Kaggle data
